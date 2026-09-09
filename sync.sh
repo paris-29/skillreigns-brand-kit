@@ -12,3 +12,6 @@ cp -r "$SRC/All-Documents" documents
 rm -f documents/SkillReigns_SR-DOC-BK_Previews-v1.0.zip
 cp -f "$SRC/skillreigns-ai-studio/server/skills/"*.md agent-skills/
 echo "Synced from $SRC — review with git status, then commit."
+
+rm -rf canva-pack
+cp -r "$SRC/Canva-Upload-Pack" canva-pack
